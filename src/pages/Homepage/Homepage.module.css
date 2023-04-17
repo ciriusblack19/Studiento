@@ -1,0 +1,129 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 56%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 327px;
+    transform: translateX(-50%);
+  }
+  
+  .homepage > img {
+    width: 134px;
+    height: 96.5px;
+  }
+  
+  .interactions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 327px;
+  }
+  
+  .interactions > button {
+    height: 56px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.41;
+  }
+  
+  .btnStart {
+    background-color: #00b578;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px 0 rgba(88, 94, 125, 0.08);
+  }
+  
+  .btnHow {
+    color: #00b578;
+    margin-bottom: 8px;
+  }
+  
+  .interactions > p {
+    margin: 7px 0 3px;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 1.83;
+    text-align: center;
+    color: #515259;
+  }
+  
+  /* popup */
+  .blurredBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(110, 119, 130, 0.6);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .popUp {
+    margin: 0 auto;
+    padding: 48px 24px 47px 24px;
+    width: calc(100% - 48px);
+    background-color: #fff;
+    border-radius: 25px;
+    box-sizing: border-box;
+  }
+  
+  .popUp > h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #242928;
+    margin-bottom: 20px;
+  }
+  
+  .orderedList {
+    list-style: inside decimal none;
+    font-size: 15px;
+  }
+  
+  .orderedList > li::marker,
+  .orderedList > li > span {
+    color: #00b578;
+    font-weight: 600;
+    line-height: 1.57;
+  }
+  
+  .orderedList > li {
+    margin-bottom: 8px;
+  }
+  
+  .popUp > div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .gotIt {
+    height: 48px;
+    padding: 0 48.5px;
+    border-radius: 10px;
+    background-color: #dbf2ec;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.41;
+    text-align: center;
+    color: #00b578;
+    margin-top: 27px;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .interactions > p {
+      margin-top: 20px;
+      margin-bottom: 12px;
+      font-size: 10px;
+    }
+  
+    .popUp {
+      max-width: 327px;
+    }
+  }

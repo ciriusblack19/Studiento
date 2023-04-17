@@ -1,0 +1,96 @@
+.overviewPage {
+    overflow-x: hidden;
+    height: -webkit-fill-available;
+    background-color: #f4f6f6;
+  }
+  
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 24px 9px 24px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: -webkit-fill-available;
+    z-index: 2;
+  }
+  
+  .top > img {
+    width: 23.7px;
+    height: 27.2px;
+  }
+  
+  .scrolling {
+    box-shadow: 0 8px 20px 0 rgba(88, 94, 125, 0.15);
+  }
+  
+  .infoAndForm {
+    padding: 9px 24px 32px 24px;
+    box-shadow: 0 8px 20px 0 rgba(88, 94, 125, 0.15);
+    background-color: #fff;
+  }
+  
+  .textBox {
+    margin-top: 89px;
+    width: 76.5%;
+  }
+  
+  .textBox > h1 {
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #242928;
+  }
+  
+  .textBox > p {
+    margin-bottom: 32px;
+    font-size: 13px;
+    font-style: 400;
+    line-height: 1.69;
+    color: #515259;
+  }
+  
+  .listsAndButton {
+    background-color: #f4f6f6;
+    margin-top: 20px;
+    padding: 0 24px 82px 24px; /* third value must be changed when alterate position of "studyBtn" */
+  }
+  
+  .studyBtn {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 24px;
+    width: calc(100vw - 48px);
+    height: 56px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px 0 rgba(88, 94, 125, 0.08);
+    background-color: #00b578;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.41;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .centerStudy {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* back btn with text */
+  .backBtn {
+    color: #00b578;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.57;
+    padding: 13.02px 0;
+  }
+  
+  .backBtn > img {
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top: 2px;
+  }

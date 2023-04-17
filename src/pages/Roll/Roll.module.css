@@ -1,0 +1,18 @@
+.rollPage {
+    height: inherit;
+    padding: 24px 24px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top > img {
+    width: 23.7px;
+    height: 27.2px;
+  }

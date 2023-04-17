@@ -1,0 +1,29 @@
+.counter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 24px auto;
+  }
+  
+  .box > h2 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.38;
+    text-align: center;
+    color: #00b578;
+  }
+  
+  .box > p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.83;
+    text-align: center;
+    color: #242928;
+  }
+  
+  .stripe {
+    width: 1px;
+    height: 22px;
+    background-color: #c8d1d2;
+  }

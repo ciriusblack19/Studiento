@@ -1,0 +1,45 @@
+.topOverview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .arrowBtn {
+    width: 48px;
+    height: 48px;
+    margin-right: -18.2px;
+  }
+  
+  .arrowDown {
+    transform: rotate(180deg);
+  }
+  
+  .arrowBtn > img {
+    width: 11.6px;
+    height: 6px;
+  
+  }
+  
+  .topOverview > h1 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.57;
+  }
+  
+  .topOverview > h1 > span {
+    color: #6e7782;
+  }
+  
+  .listedNums {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 59px);
+    justify-content: space-between;
+    grid-gap: 8px;
+    margin-bottom: 32px;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .scrollable {
+      margin-top: 44px;
+    }
+  }

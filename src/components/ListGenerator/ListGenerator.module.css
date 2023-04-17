@@ -1,0 +1,96 @@
+.generator {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .submitBtn {
+    background-color: #00b578;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.41;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px 0 rgba(88, 94, 125, 0.08);
+    padding: 16px 0px;
+    width: 100%;
+  }
+  
+  .inputs {
+    display: flex;
+  }
+  
+  .left {
+    margin-right: 8px;
+  }
+  
+  .singleInput {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .singleInput > label {
+    font-size: 14px;
+    color: #0f172a;
+    line-height: 1.57;
+  }
+  
+  .inputBox {
+    border-radius: 10px;
+    border: solid 1px #c8d1d2;
+    height: 49px;
+    width: 100%;
+    margin-top: 8px;
+    text-align: center;
+    color: #0f172a;
+  }
+  
+  .inputBox::placeholder {
+    color: rgba(81, 82, 89, 0.5);
+  }
+  
+  .singleInput > input:focus {
+      border: solid 2px #00b578;
+      outline: 0 none;
+      caret-color: transparent;
+  }
+  
+  
+  /* just some text styling */
+  .headline {
+    color: #242928;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  .text {
+    color: #515259;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.69;
+  }
+  
+  .textBox {
+    width: 76.45%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+   .generator {
+    max-width: 327px;
+    margin: 0 auto;
+   }
+  
+   .textBox {
+    text-align: center;
+    margin: 0 auto;
+   }
+  
+   .inputs {
+    flex-grow: 1;
+    margin-top: 16.2%;
+   }
+  }
+  

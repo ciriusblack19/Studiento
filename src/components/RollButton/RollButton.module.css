@@ -1,0 +1,30 @@
+.btn {
+    height: 56px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.41;
+    text-align: center;
+  }
+  
+  .greenBtn {
+    color: #fff;
+    box-shadow: 0 8px 20px 0 rgba(88, 94, 125, 0.08);
+    background-color: #00b578;
+  
+  }
+  
+  .lightGreenBtn {
+    color: #00b578;
+    background-color: #dbf2ec;
+    margin: 8px 0;
+  }
+  
+  .noBgBtn {
+    color: #00b578;
+  }
+  
+  .btnsContainer {
+    display: flex;
+    flex-direction: column;
+  }
